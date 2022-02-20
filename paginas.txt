@@ -1,0 +1,15 @@
+Iconos
+https://boxicons.com/?query=code
+
+normalize Css
+https://necolas.github.io/normalize.css/8.0.1/normalize.css
+
+funtes google
+https://fonts.google.com/
+
+diseño de imagen
+https://bennettfeely.com/clippy/
+
+fondos
+https://www.magicpattern.design/tools/css-backgrounds
+https://heropatterns.com/
