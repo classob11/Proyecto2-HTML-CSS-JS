@@ -13,3 +13,6 @@ https://bennettfeely.com/clippy/
 fondos
 https://www.magicpattern.design/tools/css-backgrounds
 https://heropatterns.com/
+
+Scroll
+https://scrollrevealjs.org/
