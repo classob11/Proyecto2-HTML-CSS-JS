@@ -57,7 +57,7 @@
         </section>
    </header>
     
-   <main>
+   <main class="sect">
        <section class="container about">
            <h2 class="subtitle">
                 Perfil de Christian
@@ -116,10 +116,150 @@
             </div>
        </section>
 
-       <section class="price container">
-           <h2 class="subtitle">Miss Fortuner</h2>
+       <section class="champs container">
+           <h2 class="subtitle">Champs de juego</h2>
+
+           <div class="champs-table">
+               <div class="champs-elements">
+                    <p class="champs-name"> Maestria</p>
+                    <h3 class="champ-price">Tristana</h3>
+
+                    <div class="champ-items">
+                        <p class="champ-features">Champ 1</p>
+                        <p class="champ-features">Champ 2</p>
+                        <p class="champ-features">Champ 3</p>
+                    </div>
+                
+                    <a href="#" class="champ-cta">Ver champ</a>
+               </div>
+
+               <div class="champs-elements champs_element--best">
+                    <p class="champs-name">Maestria</p>
+                    <h3 class="champ-price">Miss Fortune</h3>
+
+                    <div class="champ-items">
+                        <p class="champ-features">Champ 1</p>
+                        <p class="champ-features">Champ 2</p>
+                        <p class="champ-features">Champ 3</p>
+                    </div>
+                
+                    <a href="#" class="champ-cta">Ver champ</a>
+               </div>
+
+               <div class="champs-elements">
+                    <p class="champs-name">Maestria</p>
+                    <h3 class="champ-price">Taylor</h3>
+
+                    <div class="champ-items">
+                        <p class="champ-features">Champ 1</p>
+                        <p class="champ-features">Champ 2</p>
+                        <p class="champ-features">Champ 3</p>
+                    </div>
+            
+                    <a href="#" class="champ-cta">Ver champ</a>
+                </div>
+           </div>
        </section>
+
+       <section class="testimony"> 
+            <div class="testimony-container">
+
+                <img src="images/leftarrow.svg" class="testimony-arrow" id="before">
+
+                <section class="testimony-body testimony_body--show" data-id="1">
+                    <div class="testimony-texts">
+                        <h2 class="subtitle">Miss Fortune,<br> <span class="testimony-course">Maestria 7</span></h2>
+                        <p class="testimony-review">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas molestiae natus at eveniet temporibus corporis itaque iure quia tenetur exercitationem.
+                        </p>
+                    </div>
+                    <figure class="testimony-picture">
+                        <img src="images/Miss_Fortune.jpg" class="testomony-img">
+                    </figure>
+                </section>
+                
+                <section class="testimony-body" data-id="2">
+                    <div class="testimony-texts">
+                        <h2 class="subtitle">Tristana, <br> <span class="testimony-course">Maestria 4</span></h2>
+                        <p class="testimony-review">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas molestiae natus at eveniet temporibus corporis itaque iure.
+                        </p>
+                    </div>
+                    <figure class="testimony-picture">
+                        <img src="images/tristana.png" class="testomony-img">
+                    </figure>
+                </section>
+
+                <section class="testimony-body" data-id="3">
+                    <div class="testimony-texts">
+                        <h2 class="subtitle">Yasuo,<br> <span class="testimony-course">Maestria1</span></h2>
+                        <p class="testimony-review">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas molestiae natus at eveniet temporibus corporis itaque iure quia tenetur exercitationem.
+                        </p>
+                    </div>
+                    <figure class="testimony-picture">
+                        <img src="images/Yasuo.jpg" class="testomony-img">
+                    </figure>
+                </section>
+
+                <img src="images/rightarrow.svg" class="testimony-arrow" id="next">
+
+            </div>
+       </section>
+
+       <footer class="footer">
+           <section class="footer-container container">
+                <nav class="nav nav--footer">
+                    <h2 class="footer-title">Lolcito</h2>
+
+                    <ul class="nav-link nav-link--footer">
+                        <li class="nav-items">
+                            <a href="#" class="nav-links"> Inicio</a>
+                        </li>
+        
+                        <li class="nav-items">
+                            <a href="#" class="nav-links"> Perfil</a>
+                        </li>
+        
+                        <li class="nav-items">
+                            <a href="#" class="nav-links"> Cursos</a>
+                        </li>
+        
+                        <li class="nav-items">
+                            <a href="#" class="nav-links"> Proyectos</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <form class="footer-form">
+                    <h2 class="footer-newsletter">
+                        Suscribete a Lolcito
+                    </h2>
+                    <div class="footer-inputs">
+                        <input type="email" placeholder="Email:" class="footer-input">
+                        <input type="submit" value="Registrat" class="footer-submit">
+                    </div>
+                </form>
+           </section>
+
+           <section class="footer-copy container">
+                <div class="footer-social">
+                    <a href="#" class="footer-icons"> 
+                        <img src="images/facebook.svg" class="footer-img">
+                    </a>
+                    <a href="#" class="footer-icons"> 
+                        <img src="images/twitter.svg" class="footer-img">
+                    </a>
+                    <a href="#" class="footer-icons"> 
+                        <img src="images/youtube.svg" class="footer-img">
+                    </a>
+                </div>
+                <h3 class="footer-copyright"> Copyright 2022 &copy; Christian Lasso</h3>
+           </section>
+       </footer>
    </main>
 
+   <script src="JS/slider.js"></script>
+   
 </body>
 </html>
